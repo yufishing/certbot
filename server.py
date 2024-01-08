@@ -5,7 +5,7 @@
 @Time    :   2023/12/29 20:24:41
 @Author  :   Fisher Yu
 @Version :   1.0
-@Contact :   plmkop@ericsson.com
+@Contact :   plmkop@gmail.com
 @License :   © Copyright 2023-2033, idoobi.top
 @Desc    :   None
 '''
