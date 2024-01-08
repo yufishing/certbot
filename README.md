@@ -26,12 +26,12 @@ A certbot docker image with embind http server and try renew certificates every 
   Docker Compose volume mapping
 ```
   nginx:
-  volumes:
-  - [www-root]:/var/www
-  - [path-cert]:/etc/nginx/certs
+    volumes:
+    - [www-root]:/var/www
+    - [path-cert]:/etc/nginx/certs
   
   certbot:
-  volumes:
-  - [www-root]:/srv/www
-  - [path-cert]:/etc/letsencrypt
+    volumes:
+    - [www-root]:/srv/www
+    - [path-cert]:/etc/letsencrypt
 ```
